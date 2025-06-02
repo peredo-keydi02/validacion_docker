@@ -5,7 +5,7 @@ group "default" {
 target "build" {
   dockerfile = "Dockerfile"
   context    = "."
-  tags       = ["user/app:latest"]
+  tags       = ["keydi02/validacion_docker:latest"] 
 }
 
 target "validate-build" {
