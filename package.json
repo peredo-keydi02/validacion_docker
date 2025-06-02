@@ -1,0 +1,16 @@
+{
+  "name": "validacion_docker",
+  "version": "1.0.0",
+  "description": "Proyecto de ejemplo con Docker y CI",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
